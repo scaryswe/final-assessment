@@ -1,0 +1,32 @@
+{
+  "name": "final-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-typescript": "^7.23.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "@andrew_dominican/date-lib": "^1.0.1",
+    "@andrew_dominican/string-lib": "^1.0.2",
+    "@scaryswe/string-lib": "^1.0.0",
+    "documentation": "^14.0.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
